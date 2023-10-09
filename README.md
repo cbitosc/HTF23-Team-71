@@ -1,76 +1,40 @@
-# HTF23-Team-71
+# Hostel Management Application
 
-## GitHub submission guide
+Created using MERN Stack with Redux
 
-In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
+## Installation
 
-<details open>
-<summary><h3>1. Login to your GitHub Account by heading over to <a href="https://github.com">github.com</a></h3></summary>
-<br>
-<ul>
-   <li>Open the <a href="https://github.com/cbitosc/HTF23-Team-71">current repo</a> in a new tab.</li>
-   <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
-</ul>
-</details>
+```
+npm install
+cd frontend && npm install
+```
 
-<details>
-<summary><h3>2. Fork the Repository</h3></summary>
-<br>
-<ul>
- <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b></li>
- <img src="/images/fork.png">
+### Configure .env file
 
- <li>Enter the <b>Repository Name</b> as <b>HTF23-Team-71 (your team number)</b>.</li>
- <li>Then click <b>Create Fork</b> leaving all other fields to their default value.</li>
- <img src="/images/create-fork.png">
- <li>After a few moments, you can view the repo.</li>
-</ul>
-</details>
+```
+NODE_ENV = development/production
+PORT = 5000
+MONGO_URI= Mongo Uri
+JWT_SECRET= JWT Key
+```
 
-<details>
-<summary><h3>3. Clone your Repository</h3></summary>
-<br>
-<ul>
- <li>Click on <b>Code</b> and from the dropdown menu copy your <b>web URL</b> in your forked Repository. </li>
- <img src="/images/clone1.png">
- <li>Now open terminal on your local machine.</li>
- <li>Use the following command to clone your forked Repository:</li>
-<code> git clone https://github.com/your-username/HTF23-Team-71.git </code>
-<hr>
- <img src="/images/clone2.png">
+## Features
 
-</ul>
-</details>
+- [x] Register/Login Screens
+- [x] Student Details
+- [x] Add Student
+- [x] Edit/Delete Student Details
+- [x] Update Student Where abouts
+- [x] Can take Attendance Daily
+- [x] Dispaly Attendance Details
+- [x] Download Csv file of attendance
+- [x] Delete Attendance of previous n days
+- [x] Control User List
+- [x] Edit User Admin Status
+- [x] Data Controlled by only Admins
 
-<details>
-<summary><h3>4. Adding files to the Repository</h3></summary>
-<br/>
-<ul>
- <li>While doing it for the first time, create a new branch for your changes.</li>
-   <code> git checkout -b branch-name </code>
-   <li>Add your files or make modifications to existing files.</li>
-   <li>Stage your changes:</li>
-   <code> git add . </code>
-   <li>Commit your changes:</li>
-   <code> git commit -m "Descriptive commit message" </code>
-   <li>Push changes to your fork </li>
-   <code> git push origin branch-name </code>
-   <hr>
-   
- <img src="/images/push.png">
-</ul>
-</details>
+## Contributing
 
-<details>
-<summary><h3>5. Create a Pull Request</h3></summary>
-   <br>
-<ul>
- <li>Finally, click on the <b>Contribute</b> button and choose <b>Open Pull Request</b>.</li>
- <img src="/images/PR1.png">
- <li>Leaving all fields to their default values, click on <b>Create Pull Request</b>.</li>
- <img src="/images/PR2.png">
- <li>Wait for a few moments, then you are all done</li>
-</ul>
-</details>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Thanks for participating!
+Please make sure to update tests as appropriate.
